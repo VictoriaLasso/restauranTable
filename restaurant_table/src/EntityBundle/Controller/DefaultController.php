@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('EntityBundle:Default:index.html.twig');
     }
+    
+    public function datosRestaurantesAction()
+    {
+        return $this->render('EntityBundle:Default:restauantes.html.twig');
+    }
 }
